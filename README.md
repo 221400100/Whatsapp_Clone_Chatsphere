@@ -1,50 +1,42 @@
-# Welcome to your Expo app 👋
+# 💬 ChatSphere
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**ChatSphere** is a modern, feature-rich messaging app inspired by WhatsApp. It supports real-time chats, voice/video calls, communities, scheduled messages, and more — all built using **React Native**, **Expo**, and **Firebase**.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
-   ```bash
-   npm install
-   ```
+- 🔹 **Real-time Chat** – 1-on-1 and group messaging  
+- 🔹 **Voice & Video Calls** – Seamless calling with Expo & Firebase  
+- 🔹 **Communities & Channels** – Create and join topic-based groups  
+- 🔹 **Scheduled Messages** – Plan your messages ahead of time  
+- 🔹 **Media Sharing** – Share images, documents, and more  
+- 🔹 **Username + Phone Messaging** – Use username or number to connect  
+- 🔹 **Message Translation** – Translate messages in real-time  
+- 🔹 **Device Linking** – Connect to ChatSphere Web (like WhatsApp Web)  
+- 🔹 **Push Notifications** – Stay updated across all devices  
+- 🔹 **Firebase Auth & Firestore** – Secure and scalable backend
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🛠️ Built With
 
-In the output, you'll find options to open the app in a
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [Firebase](https://firebase.google.com/)
+  - Auth
+  - Firestore
+  - Storage
+- [Tailwind CSS (NativeWind)](https://www.nativewind.dev/)
+- [React Navigation](https://reactnavigation.org/)
+- [Expo Media APIs](https://docs.expo.dev/versions/latest/)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## 📦 Installation
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/221400100/Whatsapp_Clone_Chatsphere.git
+cd Whatsapp_Clone_Chatsphere
+npm install
+npx expo start
